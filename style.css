@@ -74,8 +74,6 @@ h3{
     border-radius: 5%;
 }
 .ingredients-cont{
-    /* border-bottom: 1px solid hsl(30, 18%, 87%); */
-    /* list-style-type: decimal; */
     padding: 10px;
 }
 .instructions-cont{
@@ -101,7 +99,7 @@ h3{
 
 /*ingredients elements*/
 .ingredients-cont ul{
-    margin-left: 21px;
+    margin-left: 14px;
 }
 
 
@@ -147,7 +145,12 @@ td:last-child{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
-
+.inside{
+    width: 47%;
+}
+.outside{
+    width: 105%;
+}
 /*mobile design / responsiveness*/
 
 @media only screen and (max-width: 450px){
